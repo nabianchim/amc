@@ -27,7 +27,7 @@ const siteConfig = {
     hero: {
         headline: "Onde a gravidade é apenas um detalhe",
         subheadline: "Desenvolvimento motor, disciplina e diversão para crianças, jovens e adultos. Venha treinar na melhor academia de ginástica de Piracicaba!",
-        ctaPrimary: "Agendar Aula Grátis",
+        ctaPrimary: "Falar com a Equpe Grátis",
         ctaSecondary: "Conhecer Modalidades"
     },
     stats: [
@@ -114,7 +114,7 @@ const siteConfig = {
     },
     testimonials: {
         title: "O que dizem as famílias",
-        description: "A opinião e o carinho dos nossos alunos e de seus pais são o nosso maior troféu. Recomendado por 100% (41 avaliações no Facebook e 5 estrelas no Google):",
+        description: "A opinião e o carinho dos nossos alunos e de seus pais são o nosso maior troféu:",
         list: [
             {
                 name: "Daniela de Jesus Novaes",

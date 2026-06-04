@@ -179,7 +179,7 @@ function renderPrograms() {
                     <span>${card.age}</span>
                 </span>
                 <button class="btn btn-text btn-schedule-trial-modal" data-modalidade="${card.title}">
-                    <span>Agendar Aula</span>
+                    <span>Falar com a Equpe</span>
                     <i data-lucide="chevron-right"></i>
                 </button>
             </div>

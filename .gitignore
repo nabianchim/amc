@@ -1,0 +1,15 @@
+# Windows Zone Identifier files
+*:Zone.Identifier
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db

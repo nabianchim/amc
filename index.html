@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title data-content="seo.title">Academia Mariana Casseb</title>
+    <meta name="description" data-content="seo.description" content="">
+    <meta name="keywords" data-content="seo.keywords" content="">
+    <meta name="author" data-content="seo.author" content="">
+
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Config & Icons -->
+    <script src="js/config.js?v=1.0.3"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    
+    <!-- Floating Background Lights -->
+    <div class="bg-lights">
+        <div class="light-blob light-1"></div>
+        <div class="light-blob light-2"></div>
+        <div class="light-blob light-3"></div>
+    </div>
+
+    <!-- Header / Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">
+                <img data-content="brand.logoSrc" src="logo.png" alt="Logo" class="logo-nav">
+                <div>
+                    <span data-content="brand.logoText" class="logo-text"></span>
+                    <span data-content="brand.logoSubtext" class="logo-subtext"></span>
+                </div>
+            </a>
+            
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <div class="nav-menu" id="navMenu">
+                <!-- Dynamically populated links -->
+                <div class="nav-links" id="navLinksContainer"></div>
+                <a data-href="nav.btnLink" data-content="nav.btnText" class="btn btn-primary nav-cta btn-schedule-trial" target="_blank"></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-content fade-in-left">
+                <div class="hero-badge">
+                    <i data-lucide="sparkles"></i>
+                    <span>Vagas abertas para novas turmas!</span>
+                </div>
+                <h1 data-content="hero.headline">Onde a gravidade é apenas um detalhe</h1>
+                <p data-content="hero.subheadline"></p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-lg btn-schedule-trial-modal">
+                        <span data-content="hero.ctaPrimary">Agendar Aula Grátis</span>
+                        <i data-lucide="arrow-right"></i>
+                    </button>
+                    <a href="#modalidades" class="btn btn-secondary btn-lg">
+                        <span data-content="hero.ctaSecondary">Conhecer Modalidades</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in-right">
+                <div class="logo-display-wrapper">
+                    <div class="logo-glow-ring"></div>
+                    <div class="logo-display">
+                        <img data-content="brand.logoSrc" src="logo.png" alt="Academia Mariana Casseb Logo" class="logo-img-large">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <div class="stats-grid" id="statsGrid">
+                <!-- Dynamically populated stats cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modalidades (Programs) Section -->
+    <section id="modalidades" class="section modalidades-section">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 data-content="modalidades.title">Nossos Programas</h2>
+                <p data-content="modalidades.description"></p>
+            </div>
+            
+            <div class="programs-grid fade-in-up delay-1" id="programsGrid">
+                <!-- Dynamically populated program cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section sobre-section">
+        <div class="container sobre-grid">
+            <div class="sobre-text fade-in-left">
+                <h2 data-content="sobre.title"></h2>
+                <div class="divider"></div>
+                <p data-content="sobre.description" class="sobre-main-p"></p>
+                
+                <div class="founder-block glass-card">
+                    <div class="founder-info">
+                        <h3 data-content="sobre.founderTitle">Mariana Casseb</h3>
+                        <span class="founder-subtitle">Fundadora & Responsável Técnica</span>
+                        <p data-content="sobre.founderBio"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sobre-details fade-in-right">
+                <div class="glass-card info-card">
+                    <h3 data-content="sobre.dadosCadastrais.title"></h3>
+                    <ul class="data-list">
+                        <li>
+                            <span data-content="sobre.dadosCadastrais.nomeFantasiaLabel"></span>
+                            <span class="data-value" data-content="sobre.dadosCadastrais.nomeFantasia"></span>
+                        </li>
+                        <li>
+                            <span>Razão Social:</span>
+                            <span class="data-value" data-content="sobre.razaoSocial"></span>
+                        </li>
+                        <li>
+                            <span>CNPJ:</span>
+                            <span class="data-value" data-content="sobre.cnpj"></span>
+                        </li>
+                        <li>
+                            <span>Fundação / Início:</span>
+                            <span class="data-value" data-content="sobre.fundacao"></span>
+                        </li>
+                        <li>
+                            <span data-content="sobre.dadosCadastrais.porteLabel"></span>
+                            <span class="data-value" data-content="sobre.dadosCadastrais.porte"></span>
+                        </li>
+                        <li>
+                            <span data-content="sobre.dadosCadastrais.naturezaLabel"></span>
+                            <span class="data-value" data-content="sobre.dadosCadastrais.natureza"></span>
+                        </li>
+                        <li>
+                            <span data-content="sobre.dadosCadastrais.situacaoLabel"></span>
+                            <span class="data-value" data-content="sobre.dadosCadastrais.situacao"></span>
+                        </li>
+                        <li>
+                            <span data-content="sobre.dadosCadastrais.socioLabel"></span>
+                            <span class="data-value" data-content="sobre.dadosCadastrais.socio"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos (Testimonials) Section -->
+    <section id="depoimentos" class="section testimonials-section">
+        <div class="container">
+            <div class="section-header text-center fade-in-up">
+                <h2 data-content="testimonials.title"></h2>
+                <p data-content="testimonials.description"></p>
+            </div>
+            
+        </div>
+        
+        <div class="testimonials-track-wrapper fade-in-up delay-1">
+            <div class="testimonials-grid" id="testimonialsGrid">
+                <!-- Dynamically populated testimonials -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section contato-section">
+        <div class="container contato-grid">
+            <div class="contato-info fade-in-left">
+                <h2 data-content="contato.title">Fale Conosco</h2>
+                <p data-content="contato.description" class="contato-desc"></p>
+                
+                <div class="contact-methods">
+                    <a data-href="contato.whatsapp.link" class="contact-method-card glass-card hover-glow" target="_blank">
+                        <div class="icon-box whatsapp">
+                            <i data-lucide="message-circle"></i>
+                        </div>
+                        <div class="contact-details-text">
+                            <strong data-content="contato.whatsapp.label">WhatsApp</strong>
+                            <span data-content="contato.whatsapp.value"></span>
+                        </div>
+                        <i data-lucide="external-link" class="link-arrow"></i>
+                    </a>
+                    
+                    <a data-href="contato.email.link" class="contact-method-card glass-card hover-glow">
+                        <div class="icon-box email">
+                            <i data-lucide="mail"></i>
+                        </div>
+                        <div class="contact-details-text">
+                            <strong data-content="contato.email.label">E-mail</strong>
+                            <span data-content="contato.email.value"></span>
+                        </div>
+                        <i data-lucide="external-link" class="link-arrow"></i>
+                    </a>
+
+                    <div class="contact-method-card glass-card">
+                        <div class="icon-box location">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div class="contact-details-text">
+                            <strong data-content="contato.endereco.label">Endereço</strong>
+                            <span data-content="contato.endereco.value"></span>
+                        </div>
+                    </div>
+
+                    <div class="contact-method-card glass-card">
+                        <div class="icon-box hours">
+                            <i data-lucide="clock"></i>
+                        </div>
+                        <div class="contact-details-text">
+                            <strong data-content="contato.horarios.label">Horários</strong>
+                            <span data-content="contato.horarios.value"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contato-map fade-in-right">
+                <div class="glass-card map-card">
+                    <div class="map-glow"></div>
+                    <iframe data-content="contato.mapIframeSrc" src="" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <img data-content="brand.logoSrc" src="logo.png" alt="Logo" class="logo-footer">
+                    <div>
+                        <span data-content="brand.logoText" class="logo-text"></span>
+                        <span data-content="brand.logoSubtext" class="logo-subtext"></span>
+                    </div>
+                </div>
+                <p data-content="brand.footerSubtext" class="footer-subtext-para"></p>
+                <div class="social-links">
+                    <a data-href="brand.instagramLink" class="social-link" target="_blank" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-nav">
+                <h3>Links Rápidos</h3>
+                <div class="footer-links-grid" id="footerLinksContainer">
+                    <!-- Dynamically populated -->
+                </div>
+            </div>
+            
+            <div class="footer-legal">
+                <h3>Informações Legais</h3>
+                <div class="legal-details">
+                    <span>CNPJ: <span data-content="sobre.cnpj"></span></span>
+                    <span data-content="sobre.razaoSocial"></span>
+                    <span>Piracicaba - SP</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container bottom-content">
+                <p>&copy; <span data-content="brand.copyrightYear"></span> <span data-content="brand.copyrightText"></span></p>
+                <p class="creator-credits">Projetado com excelência em UX</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Trial Class Schedule Modal -->
+    <div class="modal-overlay" id="trialModal">
+        <div class="modal-card glass-card">
+            <button class="modal-close" id="modalClose" aria-label="Fechar Modal">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-header">
+                <h2>Agende sua Aula Grátis</h2>
+                <p>Preencha os campos abaixo e nosso time entrará em contato para agendar o melhor dia e horário para seu treino experimental.</p>
+            </div>
+            <form class="modal-form" id="trialForm">
+                <div class="form-group">
+                    <label for="studentName">Nome do Aluno(a)</label>
+                    <input type="text" id="studentName" required placeholder="Digite o nome completo">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="studentAge">Idade</label>
+                        <input type="text" id="studentAge" required placeholder="Ex: 8 anos, 25 anos">
+                    </div>
+                    <div class="form-group">
+                        <label for="selectedProgram">Modalidade de Interesse</label>
+                        <select id="selectedProgram" required>
+                            <option value="" disabled selected>Selecione uma opção</option>
+                            <option value="Ginástica Acrobática">Ginástica Acrobática</option>
+                            <option value="Ginástica Artística">Ginástica Artística</option>
+                            <option value="Ginástica Rítmica">Ginástica Rítmica</option>
+                            <option value="Baby Gym">Baby Gym</option>
+                            <option value="Ginástica para Adultos">Ginástica para Adultos</option>
+                            <option value="Equipe de Competição">Equipe de Competição</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="parentWhatsApp">WhatsApp do Responsável / Contato</label>
+                    <input type="tel" id="parentWhatsApp" required placeholder="(19) 99999-9999">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                    <span>Enviar solicitação via WhatsApp</span>
+                    <i data-lucide="message-circle"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/script.js?v=1.0.2"></script>
+</body>
+</html>

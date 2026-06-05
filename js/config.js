@@ -94,7 +94,7 @@ const siteConfig = {
         title: "Sobre a nossa Academia",
         description: "A <strong>Academia Mariana Casseb</strong> nasceu da paixão pela ginástica e do desejo de criar um espaço onde cada aluno possa descobrir o seu potencial. Sob a liderança da treinadora Mariana Casseb, nossa missão é promover o esporte com excelência técnica, foco na segurança e um ambiente familiar acolhedor.",
         founderTitle: "Mariana Casseb",
-        founderBio: "Profissional de Educação Física com mais de 15 anos de experiência prática, especialista em Ginástica Acrobática e Artística. Idealizadora de projetos que trouxeram dezenas de títulos para Piracicaba, Mariana lidera uma equipe de profissionais certificados e apaixonados pelo desenvolvimento infantil e de atletas de alto rendimento.",
+        founderBio: "Profissional de Educação Física com mais de 27 anos de experiência com ginástica, especialista em Ginástica Acrobática e Artística. Idealizadora de projetos que trouxeram dezenas de títulos para Piracicaba, Mariana lidera uma equipe de profissionais certificados e apaixonados pelo desenvolvimento infantil e de atletas de alto rendimento.",
         razaoSocial: "ACADEMIA MARIANA CASSEB LTDA",
         cnpj: "29.510.061/0001-80",
         fundacao: "2014 (Início das atividades)",
@@ -120,12 +120,6 @@ const siteConfig = {
                 name: "Daniela de Jesus Novaes",
                 role: "Mãe de Aluna",
                 comment: "Todos da academia tem muito amor, carinho e paciência com minha filha. Sou grata a cada uma das professoras, funcionárias e coordenação pelo carinho e acolhimento com minha filha que é especial. Gratidão 🙏🏼",
-                rating: 5
-            },
-            {
-                name: "Jéssica M. A. Stabelin",
-                role: "Mãe de Aluno",
-                comment: "Um lugar cheio de amor e carinho! Aparelhos de primeira linha, equipe qualificada e atenciosa com todos os alunos, sempre tratados com muito respeito, avaliados e direcionados de pertinho em cada movimento!! ❤️🤸‍♂️🤸‍♀️",
                 rating: 5
             },
             {
@@ -168,12 +162,6 @@ const siteConfig = {
                 name: "Débora Kelly Reis Campos",
                 role: "Aluna",
                 comment: "Professoras altamente qualificadas e dedicadas, nos incentivam e extraem nosso melhor sempre!! Com muita disciplina e determinação. Melhor academia da região !!",
-                rating: 5
-            },
-            {
-                name: "Mônica Araujo",
-                role: "Aluna/Mãe",
-                comment: "Excelente academia, sempre inovando no ensino da modalidade e com professores de alta qualidade no profissionalismo, com muito carinho e atenção sobre os alunos! Preço acessível para a prática.",
                 rating: 5
             },
             {

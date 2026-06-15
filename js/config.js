@@ -1,7 +1,7 @@
 const siteConfig = {
     seo: {
         title: "Academia Mariana Casseb | Ginástica Artística, Rítmica e Acrobática em Piracicaba",
-        description: "Academia Mariana Casseb - Referência em Ginástica Acrobática, Artística, Rítmica e Baby Gym em Piracicaba, SP. Agende uma aula experimental gratuita!",
+        description: "Academia Mariana Casseb - Referência em Ginástica Acrobática, Artística, Rítmica e Baby Gym em Piracicaba, SP. Agende uma aula experimental!",
         keywords: "Academia Mariana Casseb, Ginástica Acrobática, Ginástica Artística, Ginástica Rítmica, Baby Gym, Piracicaba, Ginástica Infantil, Condicionamento Físico",
         author: "Academia Mariana Casseb"
     },
@@ -27,7 +27,7 @@ const siteConfig = {
     hero: {
         headline: "Onde a gravidade é apenas um detalhe",
         subheadline: "Desenvolvimento motor, disciplina e diversão para crianças, jovens e adultos. Venha treinar na melhor academia de ginástica de Piracicaba!",
-        ctaPrimary: "Falar com a Equpe Grátis",
+        ctaPrimary: "Falar com a Equpe",
         ctaSecondary: "Conhecer Modalidades"
     },
     stats: [
@@ -174,7 +174,7 @@ const siteConfig = {
     },
     contato: {
         title: "Agende uma Aula",
-        description: "Quer conhecer nosso espaço e fazer uma aula gratuita? Preencha os detalhes ou fale conosco diretamente pelo WhatsApp!",
+        description: "Quer conhecer nosso espaço e fazer uma aula? Preencha os detalhes ou fale conosco diretamente pelo WhatsApp!",
         whatsapp: {
             link: "https://wa.me/5519991995884?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20aula%20experimental%20na%20Academia%20Mariana%20Casseb.",
             label: "WhatsApp Oficial",

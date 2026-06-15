@@ -325,7 +325,7 @@ function initTrialModal() {
             const parentWhatsApp = document.getElementById('parentWhatsApp').value.trim();
             
             // Build the WhatsApp message
-            const message = `Olá! Gostaria de agendar uma aula experimental grátis na Academia Mariana Casseb.%0A%0A` +
+            const message = `Olá! Gostaria de agendar uma aula experimental na Academia Mariana Casseb.%0A%0A` +
                             `*DADOS DO AGENDAMENTO:*%0A` +
                             `• *Nome do Aluno(a):* ${encodeURIComponent(studentName)}%0A` +
                             `• *Idade:* ${encodeURIComponent(studentAge)}%0A` +
